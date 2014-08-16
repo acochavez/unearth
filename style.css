@@ -1,0 +1,42 @@
+* {
+	font-family : 'Myriad Pro';
+}
+
+body,html{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-size: 20px;
+}
+
+#title{
+	font-size: 80px;
+	font-weight: normal;
+}
+
+#terminal{
+	padding: 5px;
+	margin: 0 auto;
+	border: 13px solid #1A1A1A;
+	background: #000;
+	text-align: left;
+	font-family: 'Courier New';
+	font-size: 14px;
+	width: 780px;
+	color: #00FF00;
+}
+
+.red {
+	font-family: 'Courier New';
+	color: red;
+}
+footer {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+}

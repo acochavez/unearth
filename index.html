@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unearth.js</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1 id="title"><b>Unearth</b>.js</h1>
+		Trace variables by unearthing them from execution.
+		<br /><br /><br />
+		<div id="terminal">
+			you@unearth:~$ npm install unearth -g
+			<br />
+			you@unearth:~$ unearth server.js
+			<br />
+			Type a variable or value that you want to unearth...
+			<br />
+			counter
+			<br />
+			Found <span class="red">counter</span> on server.js
+			<br />
+			line 7: <span class="red">counter</span> = 0
+			<br />
+			line 7: <span class="red">counter</span> = 1
+			<br />
+			line 7: <span class="red">counter</span> = 2
+			<br />
+			line 7: <span class="red">counter</span> = 3
+			<br />
+			line 7: <span class="red">counter</span> = 4
+			<br />
+			Type a variable or value that you want to unearth...
+			<br />
+			0
+			<br />
+			Found <span class="red">0</span> on server.js
+			<br />
+			line 7 : counter = <span class="red">0</span>
+			<br />
+			line 21: total = <span class="red">0</span>
+		</div>
+		<footer>
+			A Webgeek Devcup 2014 Entry by Team Ghost Pro.
+		</footer>
+	</body>
+</html>
