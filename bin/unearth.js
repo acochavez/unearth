@@ -17,6 +17,6 @@ var start = function () {
 
     cli.init();
   });
-};g
+};
 
 start();
