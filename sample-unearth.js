@@ -1,7 +1,7 @@
 // var storage = require(__dirname + "/lib/mem_store");
 // var cli = require(__dirname + "/lib/cli");
 
-process.storage = {};
+
 
 // storage.set('ninz',{sample:23243},300, 'sample');
 // storage.set('ninz2',23123123,300, 'sample');

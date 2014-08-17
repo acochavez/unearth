@@ -1,8 +1,17 @@
 {
   "name": "unearth",
-  "description": "No need to use console.log anyome :)",
-  "version": "0.0.1",
+  "description": "No need to use console.log anymore :)",
+  "version": "0.0.3",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acochavez/unearth.js"
+  },
+  "bin": {
+    "unearth": "./bin/unearth.js"
+  },
+  "preferGlobal": "true",
+  "main": "./lib/index",
   "dependencies": {
     "cli-color": "0.3.2",
     "async": "0.9.0",

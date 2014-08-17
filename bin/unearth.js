@@ -4,7 +4,7 @@ var index = require('../lib/index');
 var cli = require('../lib/cli');
 
 var start = function () {
-  if (!process.argv[2]) {
+  if (!process.argv[1]) {
     return console.log('File is missing');
   }
 
