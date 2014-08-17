@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 
 var index = require('../lib/index');
@@ -16,6 +17,6 @@ var start = function () {
 
     cli.init();
   });
-};
+};g
 
 start();
